@@ -1,0 +1,142 @@
+NET 71961: Socket._read readStart
+HTTP 71961: SERVER new http connection
+HTTP 71961: call onSocket 0 0
+HTTP 71961: createConnection 127.0.0.1:23414: { servername: 'localhost',
+  maxSockets: 100,
+  path: null,
+  localAddress: undefined,
+  agent: 
+   Agent {
+     domain: null,
+     _events: { free: [Function] },
+     _eventsCount: 1,
+     _maxListeners: undefined,
+     defaultPort: 80,
+     protocol: 'http:',
+     options: { maxSockets: 100, path: null },
+     requests: {},
+     sockets: { '127.0.0.1:23414:': [] },
+     freeSockets: {},
+     keepAliveMsecs: 1000,
+     keepAlive: false,
+     maxSockets: 100,
+     maxFreeSockets: 256 },
+  headers: 
+   { 'x-forwarded-host': 'localhost:9500',
+     'x-forwarded-proto': 'http',
+     'x-forwarded-port': '9500',
+     'x-forwarded-for': '127.0.0.1',
+     accept: '*/*',
+     'user-agent': 'curl/7.54.0',
+     host: 'localhost:9500' },
+  method: 'GET',
+  secureProtocol: undefined,
+  ciphers: undefined,
+  ca: undefined,
+  cert: undefined,
+  passphrase: undefined,
+  key: undefined,
+  pfx: undefined,
+  socketPath: undefined,
+  hostname: '127.0.0.1',
+  host: '127.0.0.1',
+  port: '23414',
+  _agentKey: '127.0.0.1:23414:' }
+NET 71961: createConnection [ { servername: 'localhost',
+    maxSockets: 100,
+    path: null,
+    localAddress: undefined,
+    agent: 
+     Agent {
+       domain: null,
+       _events: [Object],
+       _eventsCount: 1,
+       _maxListeners: undefined,
+       defaultPort: 80,
+       protocol: 'http:',
+       options: [Object],
+       requests: {},
+       sockets: [Object],
+       freeSockets: {},
+       keepAliveMsecs: 1000,
+       keepAlive: false,
+       maxSockets: 100,
+       maxFreeSockets: 256 },
+    headers: 
+     { 'x-forwarded-host': 'localhost:9500',
+       'x-forwarded-proto': 'http',
+       'x-forwarded-port': '9500',
+       'x-forwarded-for': '127.0.0.1',
+       accept: '*/*',
+       'user-agent': 'curl/7.54.0',
+       host: 'localhost:9500' },
+    method: 'GET',
+    secureProtocol: undefined,
+    ciphers: undefined,
+    ca: undefined,
+    cert: undefined,
+    passphrase: undefined,
+    key: undefined,
+    pfx: undefined,
+    socketPath: undefined,
+    hostname: '127.0.0.1',
+    host: '127.0.0.1',
+    port: '23414',
+    _agentKey: '127.0.0.1:23414:',
+    encoding: null },
+  [Function: oncreate],
+  [Symbol(normalizedArgs)]: true ]
+NET 71961: pipe false null
+HTTP 71961: sockets 127.0.0.1:23414: 1
+HTTP 71961: SERVER socketOnParserExecute 78
+NET 71961: _read
+NET 71961: _read wait for connection
+HTTP 71961: outgoing message end.
+NET 71961: onread 114
+NET 71961: got data
+NET 72195: onconnection
+NET 71961: _read
+NET 72195: _read
+NET 72195: Socket._read readStart
+HTTP 72195: SERVER new http connection
+NET 71961: afterConnect
+NET 71961: _read
+NET 71961: Socket._read readStart
+NET 71961: onread 45
+NET 71961: got data
+HTTP 72195: SERVER socketOnParserExecute 213
+NET 71961: _read
+NET 71961: onread 30
+NET 71961: got data
+HTTP 72195: write ret = false
+NET 71961: _read
+NET 71961: onread 34
+NET 71961: got data
+HTTP 72195: outgoing message end.
+NET 71961: _read
+NET 71961: onread 25468
+NET 71961: got data
+HTTP 71961: AGENT incoming response!
+HTTP 71961: AGENT isHeadResponse false
+NET 71961: _read
+HTTP 71961: write ret = false
+HTTP 71961: AGENT socket keep-alive
+HTTP 71961: outgoing message end.
+HTTP 71961: CLIENT socket onFree
+HTTP 71961: agent.on(free) 127.0.0.1:23414:
+NET 71961: destroy
+NET 71961: close
+NET 71961: close handle
+NET 71961: emit close
+HTTP 71961: CLIENT socket onClose
+HTTP 71961: removeSocket 127.0.0.1:23414: writable: false
+NET 71961: afterWrite 0
+NET 71961: afterWrite call cb
+NET 71961: onread 1348
+NET 71961: got data
+NET 72195: afterWrite 0
+NET 71961: _read
+NET 72195: afterWrite call cb
+NET 72195: onread -4095
+NET 72195: EOF
+NET 72195: onSocketEnd ReadableState {

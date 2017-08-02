@@ -1,0 +1,26 @@
+NET 71961: Socket._read readStart
+HTTP 71961: SERVER new http connection
+HTTP 71961: SERVER socketOnParserExecute 78
+....
+NET 71961: got data
+NET 71981: onread 117
+NET 71961: _read
+NET 71961: onread 37
+NET 71961: got data
+NET 71981: got data
+NET 71961: _read
+NET 71981: _read
+NET 71961: _onTimeout
+NET 71961: destroy
+NET 71961: close
+NET 71961: close handle
+NET 71961: has server
+NET 71961: SERVER _emitCloseIfDrained
+NET 71961: SERVER handle? true   connections? 0
+NET 71961: emit close
+HTTP 71961: server socket close
+NET 71961: onread 22
+NET 71961: got data
+NET 71981: onread 117
+NET 71961: _read
+
